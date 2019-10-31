@@ -13,6 +13,19 @@ h1 {
   color: #fff;
 }
 
+a,
+p,
+button,
+h2,
+li,
+h1 {
+  margin: 0;
+}
+
+.clear {
+  clear: both;
+}
+
 .container {
   max-width: 100%;
   margin: 0;
@@ -55,21 +68,87 @@ h1 {
 
 .navbarContainer .logo,
 .searcher {
-  text-align: center; 
+  text-align: center;
 }
 
 .navbarContainer .logo a {
   letter-spacing: 1px;
   font-size: 21px;
-  text-decoration: none;  
+  text-decoration: none;
 }
 
 .navbarContainer .searcher button {
   padding: 10px 5px;
   border: 2px solid #fff;
-  background: none;  
+  background: none; 
   border-radius: 3px;
   font-size: 15px;
   font-weight: bold;
   width: 150px;
+}
+
+.main-articles .recent-post {
+  background: green;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.main-articles .is-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-articles article {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  background: rgb(78, 77, 77);
+}
+
+.main-articles article.is-grey-light {
+  background: rgb(148, 144, 144);
+}
+
+.main-articles article p {
+  font-size: 2.5rem;
+  margin: 0 40px;
+}
+
+.main-articles .latest-posts .is-one {
+  float: left;
+  width: 33.333%;
+}
+
+.main-articles .is-largest-half {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+.main-articles .is-largest-half-invert {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+}
+
+.main-articles .is-largest-block {
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+.main-articles .is-largest-block .is-remarkable {
+  border: 6px solid rgb(58, 52, 52);
+  background: rgb(75, 66, 66);
+}
+
+.main-articles .is-largest-block .medium-height {
+  height: 300px;
+}
+
+.main-articles .is-largest-block .max-height {
+  height: 900px;
 }
