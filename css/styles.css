@@ -1,0 +1,75 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+a,
+p,
+button,
+h2,
+li,
+h1 {
+  color: #fff;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: grey;
+}
+
+.headerContainer {
+  background-color: red;
+}
+
+.navbarContainer {
+  display: flex;
+  height: 210px;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.navbarContainer .is-one {
+  flex: 1;
+}
+
+.navbarContainer .is-five {
+  flex: 5;
+}
+
+.navbarContainer ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.navbarContainer ul li {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.navbarContainer .logo,
+.searcher {
+  text-align: center; 
+}
+
+.navbarContainer .logo a {
+  letter-spacing: 1px;
+  font-size: 21px;
+  text-decoration: none;  
+}
+
+.navbarContainer .searcher button {
+  padding: 10px 5px;
+  border: 2px solid #fff;
+  background: none;  
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: bold;
+  width: 150px;
+}
