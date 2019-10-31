@@ -146,9 +146,30 @@ h1 {
 }
 
 .main-articles .is-largest-block .medium-height {
+  height: 500px;
+}
+
+.main-articles .is-largest-block .small-height {
   height: 300px;
 }
 
 .main-articles .is-largest-block .max-height {
   height: 900px;
+}
+
+.main-articles .card-post {
+  background: green;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+.main-articles .card-post .is-row {
+  flex-direction: row;
+}
+
+.main-articles .guides-posts .is-one {
+  float: left;
+  width: 25%;
 }
