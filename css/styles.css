@@ -11,14 +11,6 @@ h2,
 li,
 h1 {
   color: #fff;
-}
-
-a,
-p,
-button,
-h2,
-li,
-h1 {
   margin: 0;
 }
 
@@ -39,7 +31,7 @@ h2 {
 }
 
 .headerContainer {
-  background-color: rgb(31, 28, 28);;
+  background-color: rgb(31, 28, 28);
 }
 
 .navbarContainer {
@@ -117,7 +109,7 @@ h2 {
   background: rgb(78, 77, 77);
 }
 
-.main-articles article .is-grey-medium{
+.main-articles article .is-grey-medium {
   background: rgb(153, 153, 153);
 }
 
@@ -140,6 +132,10 @@ p {
 
 .main-articles article h2.big {
   font-size: 3.4em;
+}
+
+footer p {
+  padding: 20px 0;
 }
 
 .main-articles article p {
@@ -172,6 +168,14 @@ p {
   background: rgb(75, 66, 66);
 }
 
+.is-largest-block footer .medium-height {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .main-articles .is-largest-block .medium-height {
   height: 500px;
 }
@@ -199,16 +203,4 @@ p {
 .main-articles .guides-posts .is-one {
   float: left;
   width: 25%;
-}
-
-.is-largest-block footer .medium-height {
-  height: 500px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-footer p {
-  padding: 20px 0;
 }
