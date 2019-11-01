@@ -1,0 +1,206 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+a,
+p,
+button,
+h2,
+li,
+h1 {
+  color: #fff;
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.clear {
+  clear: both;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: grey;
+}
+
+.headerContainer {
+  background-color: rgb(31, 28, 28);
+}
+
+.navbarContainer {
+  display: flex;
+  height: 210px;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.navbarContainer .is-one {
+  flex: 1;
+}
+
+.navbarContainer .is-five {
+  flex: 5;
+}
+
+.navbarContainer ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.navbarContainer ul li {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.navbarContainer .logo,
+.searcher {
+  text-align: center;
+}
+
+.navbarContainer .logo a {
+  letter-spacing: 1px;
+  font-size: 21px;
+  text-decoration: none;
+}
+
+.navbarContainer .searcher button {
+  padding: 10px 5px;
+  border: 2px solid #fff;
+  background: none;
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: bold;
+  width: 150px;
+}
+
+.main-articles .recent-post {
+  background: green;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.main-articles .is-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-articles article {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  flex-direction: column;
+  border: 3px solid #ccc;
+  background: rgb(78, 77, 77);
+}
+
+.main-articles article .is-grey-medium {
+  background: rgb(153, 153, 153);
+}
+
+.main-articles article.is-grey-light {
+  background: rgb(148, 144, 144);
+}
+
+.main-articles article.is-light {
+  background: rgb(187, 181, 181);
+}
+
+.main-articles article.is-white {
+  background: rgb(233, 231, 231);
+}
+
+.main-articles article.is-white h2,
+p {
+  color: rgb(36, 34, 34);
+}
+
+.main-articles article h2.big {
+  font-size: 3.4em;
+}
+
+footer p {
+  padding: 20px 0;
+}
+
+.main-articles article p {
+  font-size: 1.6rem;
+  margin: 0 40px;
+}
+
+.main-articles .latest-posts .is-one {
+  float: left;
+  width: 33.333%;
+}
+
+.main-articles .is-largest-half {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+.main-articles .is-largest-half-invert {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+}
+
+.main-articles .is-largest-block {
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+.main-articles .is-largest-block .is-remarkable {
+  border: 6px solid rgb(58, 52, 52);
+  background: rgb(75, 66, 66);
+}
+
+.is-largest-block footer .medium-height {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-articles .is-largest-block .medium-height {
+  height: 500px;
+}
+
+.main-articles .is-largest-block .small-height {
+  height: 300px;
+}
+
+.main-articles .is-largest-block .max-height {
+  height: 900px;
+}
+
+.main-articles .card-post {
+  background: green;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+.main-articles .card-post .is-row {
+  flex-direction: row;
+}
+
+.main-articles .guides-posts .is-one {
+  float: left;
+  width: 25%;
+}
